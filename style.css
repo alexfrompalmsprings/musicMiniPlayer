@@ -122,19 +122,22 @@ body{
   margin: 0;
 }
 
-.progress-container{
-  background:#fff;
+.progress-container {
+  background: #fff;
   border-radius: 5px;
   cursor: pointer;
   margin: 10px 0;
-  height: 5px;
+  height: 4px;
   width: 100%;
 }
 
-.progress{
+.progress {
   background-color: rgba(88, 151, 247, 0.6);
   border-radius: 5px;
   height: 100%;
-  width: 40%;
-  transition: width .1s linear;
+  width: 0%;
+  transition: width 0.1s linear;
 }
+
+
+
